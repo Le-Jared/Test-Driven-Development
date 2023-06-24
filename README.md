@@ -2,10 +2,6 @@
 ### Project Description
 This repository contains example code that demonstrates the application of Test Driven Development (TDD) principles using the JUnit and Mockito testing frameworks. The two key components of this project are the GradeCalculatorService and GroupControllerService, each having corresponding test classes GradeCalculatorServiceTest and GroupControllerServiceTest.
 
-GradeCalculatorService is a simple service designed to calculate the classification of a grade based on the mark input it receives. It throws exceptions if the mark is negative or above 100.
-
-GroupControllerService is a service that manages operations related to a group of trainees, such as retrieving all trainees and adding or removing a trainee. It interacts with DatabaseReader and DatabaseWriter interfaces, which are mocked during testing.
-
 ### Test Driven Development
 TDD is a software development approach where the developer creates tests before writing the implementation code. The steps are as follows:
 
